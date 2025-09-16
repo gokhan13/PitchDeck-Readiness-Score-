@@ -1,1 +1,4 @@
-full contents of vercel.json
+{
+  "installCommand": "echo 'Skipping installation'",
+  "buildCommand": "echo 'Skipping build'"
+}
