@@ -1,4 +1,5 @@
 {
   "installCommand": "echo 'Skipping installation'",
-  "buildCommand": "echo 'Skipping build'"
+  "buildCommand": "mkdir dist && cp -r App.tsx components constants.ts index.html index.tsx metadata.json services types.ts dist",
+  "outputDirectory": "dist"
 }
